@@ -6,32 +6,52 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'état (_state_) pour contrôler l'affichage d'un composant ❌ / ✔️
-- les composants enfants et les _props_ qu'on leur passe ❌ / ✔️
-- le déclenchement d'instructions en fonction des actions de l'utilisateur ❌ / ✔️
-- le déclenchement d'instructions en fonction de l'étape du cycle de vie du composant ou du changement de valeur de ses props ❌ / ✔️
+- l'état (_state_) pour contrôler l'affichage d'un composant  ✔️
+- les composants enfants et les _props_ qu'on leur passe  ✔️
+- le déclenchement d'instructions en fonction des actions de l'utilisateur ✔️
+- le déclenchement d'instructions en fonction de l'étape du cycle de vie du composant ou du changement de valeur de ses props  ✔️
 - l'usage d'un reducer (_useReducer_) pour gérer un état composé dans un composant
-- l'état stocké dans un composant avec un _context provider_ et accessible dans ses descendants via `useContext` ❌ / ✔️
+- l'état stocké dans un composant avec un _context provider_ et accessible dans ses descendants via `useContext` ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+export default function Header() {
+  const router = useRouter();
+  return (
+    <Box
+      sx={{
+        bgcolor: 'primary.main',
+        height: '15vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
+      <Button onClick={() => router.replace('/')}>
+        <Typography sx={{ color: 'primary.contrastText' }} variant="h1">
+          Chara'Pocket
+        </Typography>
+      </Button>
+    </Box>
+  );
+}
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+https://github.com/Roblin-Blondeel-Josue/character-in-pocket/tree/main
 
-Description :
+Description : Voici le front end d'un projet de gestions de fiches de jdr
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable❌ 
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel  ✔️
 
-Description :
+Description : Le frontEnd de mon entreprise repose sur du react/Next
 
 ## 🌐 J'utilise des ressources
 
