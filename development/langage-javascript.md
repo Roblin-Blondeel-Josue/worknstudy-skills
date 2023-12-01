@@ -6,34 +6,37 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
-- les spécifités du mot-clef `this` ❌ / ✔️
+- les `structures` de base du langage  ✔️
+- les normes `ecmascript` ❌ 
+- l'utilisation de l'`asynchrone` ✔️
+- les spécifités du mot-clef `this` ❌ 
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté  ✔️
 
 ```javascript
 (e) => mc2;
 ```
+for (let i = 0; i < 100; i++){
+  console.log("hello World")
+}
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet  ✔️
 
-[lien github](...)
+https://github.com/Roblin-Blondeel-Josue/garou-api
 
-Description :
+Description : garou-api est un serveur de gestion de fiche de jdr pour une association (db via mangoDb)
 
-### J'ai utilisé ce langage en production ❌ / ✔️
+### J'ai utilisé ce langage en production ✔️
 
-[lien du projet](...)
+https://github.com/Roblin-Blondeel-Josue/WCS-Hackathon-2022-SXB
 
-Description :
+Description : Apnea est un logiciel pour connaitre la qualité de l'air dans divers villes autour du monde
 
-### J'ai utilisé ce langage en environement professionnel ❌ / ✔️
+### J'ai utilisé ce langage en environement professionnel ✔️
 
-Description :
+Description : Mon entreprise utilise uniquement du JS ou TS pour l'ensemble de ses produits
 
 ## 🌐 J'utilise des ressources
 
