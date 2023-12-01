@@ -6,30 +6,42 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'intéret de TypeScript dans l'IDE ❌ / ✔️
-- les types de bases ❌ / ✔️
-- comment et pourquoi étendre une interface ❌ / ✔️
-- les classes et les decorators ❌ / ✔️
+- l'intéret de TypeScript dans l'IDE  ✔️
+- les types de bases  ✔️
+- comment et pourquoi étendre une interface  ✔️
+- les classes et les decorators ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+export function hasRoles(
+  user: {
+    id: string;
+    email: string;
+    role: string;
+  } | null,
+  role: string
+) {
+  if (!user || !user?.id || !user?.role) return false;
+  return role.includes(role);
+}
 
-[lien github](...)
+### Utilisation dans un projet  ✔️
 
-Description :
+https://github.com/Roblin-Blondeel-Josue/garou-server
 
-### Utilisation en production si applicable❌ / ✔️
+Description : Il s'agit là de la mmaj d'un projet associatif de gestions de fiches de jdr (wip)
+
+### Utilisation en production si applicable❌ 
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel  ✔️
 
-Description :
+Description : L'entierté des produits de mon entreprise sont réalisés en TS que ce soit les serveurs ou le coté client
 
 ## 🌐 J'utilise des ressources
 
