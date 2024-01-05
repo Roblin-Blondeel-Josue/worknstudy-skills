@@ -6,31 +6,36 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les verbes HTTP ❌ / ✔️
-- les statuts HTTP ❌ / ✔️
-- les endpoints ❌ / ✔️
-- CORS ❌ / ✔️
-- la nomenclature recommandée pour les routes ❌ / ✔️
+- les verbes HTTP  ✔️
+- les statuts HTTP  ✔️
+- les endpoints  ✔️
+- CORS ✔️
+- la nomenclature recommandée pour les routes  ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté  ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+router.post("/register", hashPassword, createUser);
+router.post("/login", getUserByEmailWithPasswordAndPassToNext, verifyPassword);
+router.get("/users", verifyToken, getUsers);
+router.get("/:userID", verifyToken, getUser);
 
-[lien github](...)
+### Utilisation dans un projet ✔️
 
-Description :
+https://github.com/Roblin-Blondeel-Josue/mangoDB
 
-### Utilisation en production si applicable❌ / ✔️
+Description : Il s'agit d'un serveur basique NodeJS/Mango que j'utilise comme base de code
+
+### Utilisation en production si applicable❌ 
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌ 
 
-Description :
+Description : Tout nos projets sont sur graphQL
 
 ## 🌐 J'utilise des ressources
 
