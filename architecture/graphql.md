@@ -6,16 +6,33 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la différence entre REST et GraphQL ❌ / ✔️
-- les besoins auxquels répond GraphQL ❌ / ✔️
-- la définition d'un schéma
-- Query ❌ / ✔️
-- Mutation ❌ / ✔️
-- Subscription ❌ / ✔️
+- la différence entre REST et GraphQL  ✔️
+- les besoins auxquels répond GraphQL  ✔️
+- la définition d'un schéma      ✔️
+- Query ✔️
+- Mutation  ✔️
+- Subscription  ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté  ✔️
+
+@ObjectType()
+@Entity()
+export class Gift extends BaseEntity {
+  @Field()
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Field()
+  @Column()
+  name: string;
+
+  @Field()
+  @Column()
+  description : string
+}
+
 
 ### Utilisation dans un projet ❌ / ✔️
 
@@ -31,7 +48,7 @@ Description :
 
 ### Utilisation en environement professionnel ❌ / ✔️
 
-Description :
+Description : Kastel est un site d'achat et gestion de co-proprietés. L'entierté de sa DB est en graphQL, géré par prisma
 
 ## 🌐 J'utilise des ressources
 
