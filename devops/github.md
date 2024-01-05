@@ -28,7 +28,7 @@ Description : Voir l'ensemble de mon repos gitHub
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel  ✔️
 
 Description : Mon entreprise utilise Git et Github pour gérer les projets
 
